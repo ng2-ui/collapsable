@@ -33,7 +33,6 @@ import {
       background: #ffffff;
       color: #333333;
       border-radius: 0 0 2px 2px;
-      transition: height 0.3s ease-in;
       height: 0;
       border: 0;
       font-size: 0;
@@ -41,6 +40,7 @@ import {
     [ng2-collapsable] [contents].selected {
       height: 50px;
       border: 1px solid #dddddd;
+      transition: height 0.3s ease-in;
       font-size: inherit;
     }
   `],
