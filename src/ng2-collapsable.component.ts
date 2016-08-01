@@ -40,7 +40,7 @@ import {
     [ng2-collapsable] [contents].selected {
       height: 50px;
       border: 1px solid #dddddd;
-      transition: height 0.3s ease-in;
+      transition: font-size 0.3s ease-in, height 0.3s ease-in;
       font-size: inherit;
     }
   `],
