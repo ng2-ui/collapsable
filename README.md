@@ -1,7 +1,7 @@
 # ng2-collapsable
 Angular2 Accordion Component 
 
-<a href="https://ng2-ui.github.io/#/ng2-collapsable">
+<a href="https://ng2-ui.github.io/#/accordion">
   Demo
 </a>
 
