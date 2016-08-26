@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { Ng2CollapsableComponent } from 'ng2-collapsable';
 
 @Component({
   selector: 'my-app',
-  directives: [Ng2CollapsableComponent],
   template: `
     <div ng2-collapsable
       selected="js"
