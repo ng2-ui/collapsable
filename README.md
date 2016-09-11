@@ -13,12 +13,8 @@ Angular2 Accordion Component
 
 2. add `map` and `packages` to your `systemjs.config.js`
 
-        map['ng2-collapsable'] = 'node_modules/ng2-collapsable'
-        packages['ng2-collapsable'] = { main: 'dist/index.js', defaultExtension: 'js']
-
-
         map['ng2-collapsable'] = 'node_modules/ng2-collapsable/dist';
-        packages['ng2-collapsable'] = { main: 'index.js', defaultExtension: 'js' }
+        packages['ng2-collapsable'] = { main: 'ng2-collapsable.umd.js', defaultExtension: 'js' }
 
 3. import Ng2Collapsable to your AppModule
         import { NgModule } from '@angular/core';

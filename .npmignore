@@ -1,8 +1,5 @@
 .idea
-test
+app
 src
-build.sh
 tsconfig.json
-typings.json
 node_modules
-typings
