@@ -1,4 +1,4 @@
-import { Ng2CollapsableComponent } from './ng2-collapsable.component';
-import { Ng2CollapsableModule } from './ng2-collapsable.module';
+import { NguiCollapsableComponent } from './collapsable.component';
+import { NguiCollapsableModule } from './collapsable.module';
 
-export { Ng2CollapsableComponent, Ng2CollapsableModule };
+export { NguiCollapsableComponent, NguiCollapsableModule };

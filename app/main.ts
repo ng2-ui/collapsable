@@ -12,10 +12,10 @@ import { FormsModule }    from "@angular/forms";
 
 import { AppComponent }   from './app.component';
 //noinspection TypeScriptCheckImport
-import { Ng2CollapsableModule } from 'ng2-collapsable';
+import { NguiCollapsableModule } from '@ngui/collapsable';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, Ng2CollapsableModule],
+  imports: [BrowserModule, FormsModule, NguiCollapsableModule],
   declarations: [AppComponent],
   bootstrap: [ AppComponent ]
 })

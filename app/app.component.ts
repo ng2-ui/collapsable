@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-    <div ng2-collapsable
+    <div ngui-collapsable
       selected="js"
       selected-index-class="selected"
       selected-contents-class="selected">

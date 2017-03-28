@@ -1,30 +1,29 @@
-# ng2-collapsable
+# collapsable
 Angular2 Accordion Component 
 
-<a href="https://rawgit.com/ng2-ui/ng2-collapsable/master/app/index.html">
+<a href="https://rawgit.com/ng2-ui/collapsable/master/app/index.html">
   Demo
 </a>
 
 ## Install
 
-1. install ng2-collapsable
+1. install @ngui/collapsable
 
-        $ npm install ng2-collapsable --save
+        $ npm install @ngui/collapsable --save
 
 2. add `map` and `packages` to your `systemjs.config.js`
 
-        map['ng2-collapsable'] = 'node_modules/ng2-collapsable/dist';
-        packages['ng2-collapsable'] = { main: 'ng2-collapsable.umd.js', defaultExtension: 'js' }
+        map['@ngui/collapsable'] = 'node_modules/collapsable/dist/collapsable.umd.js';
 
-3. import Ng2Collapsable to your AppModule
+3. import NguiCollapsable to your AppModule
         import { NgModule } from '@angular/core';
         import { FormsModule } from "@angular/forms";
         import { BrowserModule  } from '@angular/platform-browser';
         import { AppComponent } from './app.component';
-        import { Ng2Collapsable } from 'ng2-Collapsable';
+        import { NguiCollapsable } from '@ngui/collapsable';
         
         @NgModule({
-          imports: [BrowserModule, FormsModule, Ng2Collapsable],
+          imports: [BrowserModule, FormsModule, NguiCollapsable],
           declarations: [AppComponent],
           bootstrap: [ AppComponent ]
         })
@@ -32,7 +31,7 @@ Angular2 Accordion Component
 
 ## Use it in your template
  
-    <ng2-collapsable
+    <ngui-collapsable
       selected="js"
       selected-index-class="selected"
       selected-contents-class="slideDown animated">
@@ -40,7 +39,7 @@ Angular2 Accordion Component
       <div contents="html">HTML {{1}}</div>
       <div index="js">Javascript</div>
       <div contents="js">Javascript {{1}}</div>
-    </ng2-collapsable>
+    </ngui-collapsable>
          
 For full example, please check out `test` directory to see the example of;
 
@@ -72,8 +71,8 @@ please send me email to `allenhwkim AT gmail.com` with your github id.
 
 ### To start
 
-    $ git clone https://github.com/ng2-ui/ng2-collapsable.git
-    $ cd ng2-collapsable
+    $ git clone https://github.com/ng2-ui/collapsable.git
+    $ cd collapsable
     $ npm install
     $ npm start
 

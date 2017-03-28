@@ -16,10 +16,7 @@
     rxjs: { defaultExtension: 'js' }
   };
 
-  map['ng2-collapsable'] = '../dist';
-  packages['ng2-collapsable'] = {main: 'ng2-collapsable.umd.js', defaultExtension: 'js'};
-  // map['ng2-collapsable'] = '../src';
-  // packages['ng2-collapsable'] = {main: 'index.ts', defaultExtension: 'ts'};
+  map['@ngui/collapsable'] = '../dist/ng2-collspsable.umd.js';
 
   System.config({
     transpiler: 'typescript', //use typescript for compilation
