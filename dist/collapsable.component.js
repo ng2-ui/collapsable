@@ -1,13 +1,5 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var NguiCollapsableComponent = (function () {
     function NguiCollapsableComponent(viewContainer) {
@@ -53,26 +45,22 @@ var NguiCollapsableComponent = (function () {
     };
     return NguiCollapsableComponent;
 }());
-__decorate([
-    core_1.Input('selected'),
-    __metadata("design:type", String)
-], NguiCollapsableComponent.prototype, "selectedIndex", void 0);
-__decorate([
-    core_1.Input('selected-index-class'),
-    __metadata("design:type", String)
-], NguiCollapsableComponent.prototype, "selectedIndexClass", void 0);
-__decorate([
-    core_1.Input('selected-contents-class'),
-    __metadata("design:type", String)
-], NguiCollapsableComponent.prototype, "selectedContentsClass", void 0);
-NguiCollapsableComponent = __decorate([
-    core_1.Component({
-        selector: 'ngui-collapsable, [ngui-collapsable]',
-        encapsulation: core_1.ViewEncapsulation.None,
-        template: "<ng-content></ng-content>",
-        styles: ["\n    [ngui-collapsable] [index] {\n      display: block;\n      cursor: pointer;\n      position: relative;\n      margin: 2px 0 0 0;\n      padding: .5em .5em .5em .7em;\n      border: 1px solid #cccccc;\n      background: #ededed;\n      font-weight: normal;\n      border-radius: 2px; \n      color: #2b2b2b;\n    }\n    [ngui-collapsable] [index].selected {\n      border: 1px solid #003eff;\n      background: #007fff;\n      color: #ffffff;\n      border-radius: 2px 2px 0 0;\n    }\n    [ngui-collapsable] [contents] {\n      border-top: 0;\n      background: #ffffff;\n      color: #333333;\n      padding: 0px;\n      border-radius: 0 0 2px 2px;\n      height: 0;\n      border: 0;\n      font-size: 0;\n    }\n    [ngui-collapsable] [contents].selected {\n      height: 50px;\n      padding: 10px;\n      border: 1px solid #dddddd;\n      transition: font-size 0.3s ease-in, height 0.3s ease-in;\n      font-size: inherit;\n    }\n  "],
-    }),
-    __metadata("design:paramtypes", [core_1.ViewContainerRef])
-], NguiCollapsableComponent);
+NguiCollapsableComponent.decorators = [
+    { type: core_1.Component, args: [{
+                selector: 'ngui-collapsable, [ngui-collapsable]',
+                encapsulation: core_1.ViewEncapsulation.None,
+                template: "<ng-content></ng-content>",
+                styles: ["\n    [ngui-collapsable] [index] {\n      display: block;\n      cursor: pointer;\n      position: relative;\n      margin: 2px 0 0 0;\n      padding: .5em .5em .5em .7em;\n      border: 1px solid #cccccc;\n      background: #ededed;\n      font-weight: normal;\n      border-radius: 2px; \n      color: #2b2b2b;\n    }\n    [ngui-collapsable] [index].selected {\n      border: 1px solid #003eff;\n      background: #007fff;\n      color: #ffffff;\n      border-radius: 2px 2px 0 0;\n    }\n    [ngui-collapsable] [contents] {\n      border-top: 0;\n      background: #ffffff;\n      color: #333333;\n      padding: 0px;\n      border-radius: 0 0 2px 2px;\n      height: 0;\n      border: 0;\n      font-size: 0;\n    }\n    [ngui-collapsable] [contents].selected {\n      height: 50px;\n      padding: 10px;\n      border: 1px solid #dddddd;\n      transition: font-size 0.3s ease-in, height 0.3s ease-in;\n      font-size: inherit;\n    }\n  "],
+            },] },
+];
+/** @nocollapse */
+NguiCollapsableComponent.ctorParameters = function () { return [
+    { type: core_1.ViewContainerRef, },
+]; };
+NguiCollapsableComponent.propDecorators = {
+    'selectedIndex': [{ type: core_1.Input, args: ['selected',] },],
+    'selectedIndexClass': [{ type: core_1.Input, args: ['selected-index-class',] },],
+    'selectedContentsClass': [{ type: core_1.Input, args: ['selected-contents-class',] },],
+};
 exports.NguiCollapsableComponent = NguiCollapsableComponent;
 //# sourceMappingURL=collapsable.component.js.map
