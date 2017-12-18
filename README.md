@@ -1,13 +1,9 @@
 # collapsable
 Angular2 Accordion Component 
 
-## IMPORTANT NOTICE
+## IMPORTANT: NOT-MAINTAINED
+Accepting volunteers and ready to transfer ownership.
 
-After 0.5.0 or higher, `ng2-collapsable` has been changed to `@ngui/collapsable`. Here are the changes;
-
-* Module `ng2-collapsable` is changed to `@ngui/collapsable`.
-* Direvtive `ng2-collapsable` is changed to `ngui-collapsable`.
-* Class name `Ng2CollapsableModule` is changed to `NguiCollapsableModule`.
 
 <a href="https://rawgit.com/ng2-ui/collapsable/master/app/index.html">
   Demo
